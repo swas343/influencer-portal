@@ -1,7 +1,11 @@
 import { Row, Col } from 'react-bootstrap';
 import classes from './tableFilters.module.css';
 
-const TableFilters = () =>{
+const TableFilters = (props) =>{
+    const showModalHandler = () =>{
+        props.toggleModal()
+    }
+
     return (
         <Row className={`justify-content-end mt-4 ${classes.filters}`}>
             <Col xs="12" lg="6">
@@ -13,7 +17,7 @@ const TableFilters = () =>{
                     <option>Date Range</option>
                 </select>
 
-                <button className={`btn btn-info ${classes.addPostLink}`}>Add Post Link</button>
+                <button className={`btn btn-info ${classes.addPostLink}`} onClick={showModalHandler}>Add Post Link</button>
             </Col>
         </Row>
     )

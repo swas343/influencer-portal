@@ -1,0 +1,16 @@
+.heading{
+    padding: 10px;
+}
+.body input{
+    display: inline-block;
+    width: 50%;
+    margin-left: 2em;
+}
+.footer{
+    padding: 20px;
+    text-align: right;
+}
+
+.footer button{
+    margin: 10px;
+}

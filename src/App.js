@@ -1,5 +1,8 @@
-import { Row, Col } from 'react-bootstrap';
 import './App.css';
+
+import { Row, Col } from 'react-bootstrap';
+import { useState } from 'react';
+
 import Header from './components/header';
 import Header2 from './components/header2';
 import SideBar from './components/sideBar';
@@ -7,10 +10,18 @@ import Engagement from './components/engagement';
 import Stats from './components/statistics';
 import TableFilters from './components/tableFilters';
 import CustomTable from './components/customTable';
+import AddPostModal from './components/addPostModal';
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () =>{
+    setShowModal( prevState => { return !prevState})
+  }
+
   return (
     <div className="container-div">
+      {showModal && <AddPostModal toggleModal={toggleModal}/> }
       <div className="headers">
         <Header/>
         <hr/>
@@ -29,7 +40,7 @@ function App() {
         </Row>
         <Row>
           <Col xs="12" lg="12">
-            <TableFilters/>
+            <TableFilters toggleModal={toggleModal} />
           </Col>
         </Row>
         <Row className="mt-4">
