@@ -2,9 +2,17 @@
   text-align: center;
 }
 
+.content{
+  background-color: #eaeaea;;
+  height: 100vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.activeLink{
+  color: #7cc2d7 !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,39 @@
+/* .mainContainer{
+    min-height: 200px;
+    width: 100%;
+    background-color: white;
+} */
+.instaLogo{
+    height: 4.5em;
+}
+.instaLogo img{
+    height: 100%;
+}
+
+.instaCount{
+    background-color: pink;
+    border-radius: 5px;
+    padding: 6px 10px;
+    width: max-content;
+    margin: 0 auto;
+    color: #ec3128;
+}
+.instaCount span{
+    padding: 5px;
+}
+.borderRight{
+    border-right: 1px solid #ccc;
+}
+.scoreStatus{
+    background-color: #70d970;
+    color: white;
+    width: max-content;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 0 auto;
+}
+.bold{
+    font-weight: 900;
+    font-size: 2.2em;
+    font-weight: unset;
+}

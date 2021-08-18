@@ -1,0 +1,9 @@
+.customTable{
+    border-color: white;
+}
+.customTable thead{
+    background-color: #cccbcb;
+}
+.customTable>tbody{
+    background-color: white;
+}

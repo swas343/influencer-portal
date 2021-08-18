@@ -1,0 +1,32 @@
+.navBrand{
+    /* width: 40px; */
+    border-radius: 30px;
+    background-color: purple;
+    color: white !important;
+    padding: 15px !important;
+}
+/* .navBrand svg{
+    margin-left: 9px;
+} */
+.navBrand span{
+    font-size: 12px;
+    font-weight: 800;
+}
+.subTxt{
+    margin-top: -15px !important;
+    margin-right: 80%;
+    font-size: 10px;
+}
+.liveBtn{
+    border-radius: 30px !important;
+    background-color: purple !important;
+    border: none !important;
+    outline: none !important;
+    
+}
+.fullWidth{
+    width: 100% !important;
+}
+.subTxtMargin{
+    margin-top: -10px;
+}

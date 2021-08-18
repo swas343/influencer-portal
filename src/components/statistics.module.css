@@ -1,0 +1,23 @@
+.col-xs-2{
+    background:#00f;
+    color:#FFF;
+}
+/* .colHalfOffset{
+    margin-left:4.166666667%
+} */
+
+.statContainer{
+    background-color: white;
+}
+
+.statContainer p{
+    padding: 10px;
+}
+.statIcon{
+    font-size: 30px;
+    float: left;
+    margin-right: 7px;
+}
+.statTxt{
+    font-size: small;
+}

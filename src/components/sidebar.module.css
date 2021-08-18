@@ -1,0 +1,12 @@
+.sidebar{
+    height: 100vh;
+    background-color: white;
+    width: 15%;
+    border-radius: 5px;
+    float: left;
+}
+
+.sidebar ul li{
+    list-style-type: none;
+    padding: 10px;
+}
