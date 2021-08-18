@@ -11,8 +11,8 @@ const Header = () =>{
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
             <Nav className={`me-5 ${classes.navLinks}`}>
-                <Nav.Link href="#home" className="activeLink">My Campaign</Nav.Link>
-                <Nav.Link href="#past">Past Campaign</Nav.Link>
+                <Nav.Link href="#home" className="activeLink">My Campaigns</Nav.Link>
+                <Nav.Link href="#past">Past Campaigns</Nav.Link>
                 <Nav.Link href="#account">Account</Nav.Link>
             </Nav>
             
